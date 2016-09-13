@@ -17,9 +17,9 @@ public class Mean {
         for(int i = 0; i < length; i++){
             sum += numbers[i];
         }
-        double mean = (sum)/length;
+        double mean = ((double)sum)/length;
 
-        double median = ((numbers[length/2-1] + numbers[length/2-2]))/length;
+        double median = (double)(numbers[length/2-1] + numbers[length/2-2])/length;
         System.out.println(mean);
         System.out.println(median);
     }
